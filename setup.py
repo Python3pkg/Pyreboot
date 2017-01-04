@@ -29,8 +29,7 @@ KEYWORD = 'reboot rebooter trollrebooter gtkrebooter'
 PACKAGES = ['Pyreboot']
 PACKAGES_DATA = { 'Pyreboot': ['*.pyx'] }
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-LONG_DESCRIPTION = read(os.path.join(CURRENT_PATH, 'README.md'))
+LONG_DESCRIPTION = read(os.path.join(CURRENT_PATH, 'README.rst'))
 EXT_MODULES = [
     Extension('_reboot', ['Pyreboot/_reboot.pyx'])
 ]
