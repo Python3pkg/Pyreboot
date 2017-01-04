@@ -1,0 +1,10 @@
+__pycache__/
+build/
+.idea/
+dist/ 
+Pyreboot.egg-info/
+
+*.so
+*.o
+*.c
+*.pyc
