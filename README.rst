@@ -8,9 +8,9 @@ want before rebooter executes.
 
 How to install Install
 ----------------------
-```
+``
 pip install Pyreboot
-```
+``
 
 Requirements
 ------------
@@ -21,7 +21,7 @@ Requirements
 Usage
 -----
 
-```python
+``python
 
 from Pyreboot import *
 
@@ -33,7 +33,7 @@ _message = 'powering off your system'
 rebooter = NotifyRebooter(_powerOff, _title, _message)
 rebooter.start()
 
-```
+``
 
 
 License
@@ -64,5 +64,5 @@ Author
 Version 1.0
 -----------
 * First commit.
-* Pyreboot released
+* [fix] changed README.md to README.rst to avoid FileNotFOundError
 
